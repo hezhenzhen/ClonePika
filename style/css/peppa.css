@@ -1,0 +1,480 @@
+@import "https://fonts.googleapis.com/css?family=Roboto+Condensed:300";
+body, div, p, span {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(#82b6f0 0, #82b6f0 70%, #71c567 70%, #71c567);
+  font-size: 16px; }
+
+.sky {
+  height: 40%; }
+
+.peppa {
+  position: relative;
+  margin-right: 100px; }
+  .peppa-head {
+    width: 200px;
+    height: 220px;
+    position: relative;
+    z-index: 2; }
+    .peppa-head-face {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      background: #f8cfd8;
+      border: 2px solid #ee8ca3;
+      border-top-left-radius: 70px 100px;
+      border-top-right-radius: 50% 110px;
+      border-bottom-left-radius: 100px 100px;
+      border-bottom-right-radius: 100px 100px; }
+  .peppa-eye {
+    position: absolute;
+    z-index: 2;
+    background: #fff;
+    border: 1px solid #ee8ca3;
+    border-radius: 50%; }
+    .peppa-eye::after {
+      content: '';
+      position: absolute;
+      background: #231814;
+      border-radius: 50%; }
+    .peppa-eye-left {
+      width: 40px;
+      height: 40px;
+      left: 58px;
+      top: 30px; }
+      .peppa-eye-left::after {
+        width: 15px;
+        height: 15px;
+        left: 5px;
+        top: 10px; }
+    .peppa-eye-right {
+      width: 32px;
+      height: 32px;
+      left: 118px;
+      top: 12px; }
+      .peppa-eye-right::after {
+        width: 13px;
+        height: 13px;
+        left: 8px;
+        top: 10px; }
+  .peppa-nose {
+    width: 180px;
+    height: 100px;
+    background: #f8cfd8;
+    border: 2px solid #ee8ca3;
+    border-left: 0;
+    border-bottom: 0;
+    position: absolute;
+    left: 45px;
+    top: -35px;
+    z-index: 1;
+    transform: rotate(-17deg);
+    border-top-left-radius: 80px 20px;
+    border-top-right-radius: 80px 30px;
+    border-bottom-left-radius: 80px 20px;
+    border-bottom-right-radius: 80px 30px; }
+    .peppa-nose-circle {
+      width: 65px;
+      height: 65px;
+      background: #f8cfd8;
+      border: 2px solid #ee8ca3;
+      border-radius: 50%;
+      position: absolute;
+      right: -13px;
+      top: 14px;
+      transform: rotate(40deg) skew(10deg); }
+      .peppa-nose-circle::before, .peppa-nose-circle::after {
+        content: '';
+        position: absolute;
+        border-radius: 50%;
+        background: #ee8ca3; }
+      .peppa-nose-circle::before {
+        width: 10px;
+        height: 10px;
+        left: 38px;
+        top: 20px; }
+      .peppa-nose-circle::after {
+        width: 9px;
+        height: 9px;
+        left: 20px;
+        top: 36px; }
+  .peppa-mouth {
+    width: 80px;
+    height: 40px;
+    border: 2px solid #ee8ca3;
+    border-top-color: #f8cfd8;
+    position: absolute;
+    bottom: 35px;
+    left: 85px;
+    border-bottom-left-radius: 50% 30px;
+    border-bottom-right-radius: 50% 30px;
+    transform: rotate(-20deg); }
+  .peppa-blush {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #ee8ca3;
+    position: absolute;
+    left: 25px;
+    top: 95px; }
+  .peppa-ear {
+    position: absolute;
+    z-index: 3;
+    width: 42px;
+    height: 42px;
+    background: #f8cfd8;
+    border: 2px solid #ee8ca3;
+    border-bottom: 0;
+    border-top-left-radius: 50% 30px;
+    border-top-right-radius: 60% 30px; }
+    .peppa-ear-left {
+      top: -18px;
+      left: 0;
+      transform: rotate(-45deg); }
+    .peppa-ear-right {
+      top: -54px;
+      left: 55px;
+      transform: rotate(-25deg); }
+  .peppa-body {
+    width: 230px;
+    height: 150px;
+    position: absolute;
+    left: -15px;
+    top: 200px;
+    z-index: 1; }
+    .peppa-body-body {
+      width: 100%;
+      height: 100%;
+      background: #ee8ca3;
+      border: 2px solid #e7607f;
+      border-top-left-radius: 75px 115px;
+      border-top-right-radius: 75px 115px; }
+  .peppa-arm {
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    background: #f8cfd8; }
+    .peppa-arm-left {
+      left: -50px;
+      top: 40px;
+      transform: rotate(-22deg);
+      border-top-left-radius: 50% 2px;
+      border-top-right-radius: 50% 2px; }
+      .peppa-arm-left::before, .peppa-arm-left::after {
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 2px;
+        background: #f8cfd8;
+        border-top-left-radius: 50% 2px;
+        border-top-right-radius: 50% 2px; }
+      .peppa-arm-left::before {
+        top: -4px;
+        left: 5px;
+        transform: rotate(29deg); }
+      .peppa-arm-left::after {
+        top: 5px;
+        left: 5px;
+        transform: rotate(-29deg); }
+    .peppa-arm-right {
+      right: -50px;
+      top: 40px;
+      transform: rotate(22deg);
+      border-top-left-radius: 50% 2px;
+      border-top-right-radius: 50% 2px; }
+      .peppa-arm-right::before, .peppa-arm-right::after {
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 2px;
+        background: #f8cfd8;
+        border-top-left-radius: 50% 2px;
+        border-top-right-radius: 50% 2px; }
+      .peppa-arm-right::before {
+        top: -4px;
+        right: 5px;
+        transform: rotate(-29deg); }
+      .peppa-arm-right::after {
+        top: 5px;
+        right: 5px;
+        transform: rotate(29deg); }
+  .peppa-leg {
+    position: absolute;
+    width: 5px;
+    height: 60px;
+    background: #f8cfd8; }
+    .peppa-leg::after {
+      content: '';
+      width: 40px;
+      height: 14px;
+      background: #231814;
+      border-radius: 50%;
+      position: absolute;
+      left: -2px;
+      bottom: -5px; }
+    .peppa-leg-left {
+      left: 60px; }
+    .peppa-leg-right {
+      right: 60px; }
+  .peppa-tail {
+    position: absolute;
+    left: -20px;
+    top: 80px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #f8cfd8;
+    border-right-color: transparent;
+    border-radius: 50% 40%;
+    transform: rotate(60deg); }
+    .peppa-tail::after {
+      content: '';
+      width: 20px;
+      height: 20px;
+      border: 2px solid #f8cfd8;
+      border-bottom-color: transparent;
+      border-radius: 40% 50%;
+      position: absolute;
+      left: -10px;
+      top: -2px;
+      transform: rotate(-13deg); }
+
+.george {
+  position: relative;
+  margin-left: 200px; }
+  .george-head {
+    width: 200px;
+    height: 220px;
+    position: relative;
+    z-index: 2; }
+    .george-head-face {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      background: #f8cfd8;
+      border: 2px solid #ee8ca3;
+      border-top-left-radius: 50% 110px;
+      border-top-right-radius: 70px 100px;
+      border-bottom-left-radius: 100px 100px;
+      border-bottom-right-radius: 100px 100px; }
+  .george-nose {
+    width: 180px;
+    height: 100px;
+    background: #f8cfd8;
+    border: 2px solid #ee8ca3;
+    border-right: 0;
+    border-bottom: 0;
+    position: absolute;
+    left: -33px;
+    top: -36px;
+    z-index: 1;
+    transform: rotate(17deg);
+    border-top-left-radius: 80px 30px;
+    border-top-right-radius: 90px 18px;
+    border-bottom-left-radius: 80px 30px;
+    border-bottom-right-radius: 80px 20px; }
+    .george-nose-circle {
+      width: 65px;
+      height: 65px;
+      background: #f8cfd8;
+      border: 2px solid #ee8ca3;
+      border-radius: 50%;
+      position: absolute;
+      left: -13px;
+      top: 16px;
+      transform: rotate(50deg) skew(20deg); }
+      .george-nose-circle::before, .george-nose-circle::after {
+        content: '';
+        position: absolute;
+        border-radius: 50%;
+        background: #ee8ca3; }
+      .george-nose-circle::before {
+        width: 10px;
+        height: 10px;
+        left: 38px;
+        top: 20px; }
+      .george-nose-circle::after {
+        width: 9px;
+        height: 9px;
+        left: 20px;
+        top: 36px; }
+  .george-eye {
+    position: absolute;
+    z-index: 2;
+    background: #fff;
+    border: 1px solid #ee8ca3;
+    border-radius: 50%; }
+    .george-eye::after {
+      content: '';
+      position: absolute;
+      background: #231814;
+      border-radius: 50%; }
+    .george-eye-left {
+      width: 40px;
+      height: 40px;
+      left: 53px;
+      top: -13px; }
+      .george-eye-left::after {
+        width: 15px;
+        height: 15px;
+        left: 5px;
+        top: 10px; }
+    .george-eye-right {
+      width: 34px;
+      height: 34px;
+      left: 115px;
+      top: 15px; }
+      .george-eye-right::after {
+        width: 13px;
+        height: 13px;
+        left: 8px;
+        top: 10px; }
+  .george-mouth {
+    width: 80px;
+    height: 40px;
+    border: 2px solid #ee8ca3;
+    border-top-color: #f8cfd8;
+    position: absolute;
+    bottom: 50px;
+    left: 28px;
+    transform: rotate(20deg);
+    border-bottom-left-radius: 50% 30px;
+    border-bottom-right-radius: 50% 30px; }
+  .george-blush {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #ee8ca3;
+    position: absolute;
+    left: 112px;
+    top: 75px; }
+  .george-ear {
+    position: absolute;
+    z-index: 3;
+    width: 42px;
+    height: 42px;
+    background: #f8cfd8;
+    border: 2px solid #ee8ca3;
+    border-bottom: 0;
+    border-top-left-radius: 50% 30px;
+    border-top-right-radius: 60% 30px; }
+    .george-ear-left {
+      top: -59px;
+      left: 89px;
+      transform: rotate(21deg); }
+    .george-ear-right {
+      top: -33px;
+      left: 140px;
+      transform: rotate(35deg); }
+  .george-body {
+    width: 200px;
+    height: 160px;
+    position: absolute;
+    left: 0;
+    top: 190px;
+    z-index: 1; }
+    .george-body-body {
+      width: 100%;
+      height: 100%;
+      background: #00a1e9;
+      border-radius: 50%; }
+  .george-arm {
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    background: #f8cfd8; }
+    .george-arm-left {
+      left: -60px;
+      top: 50px;
+      transform: rotate(-22deg);
+      border-top-left-radius: 50% 2px;
+      border-top-right-radius: 50% 2px; }
+      .george-arm-left::before, .george-arm-left::after {
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 2px;
+        background: #f8cfd8;
+        border-top-left-radius: 50% 2px;
+        border-top-right-radius: 50% 2px; }
+      .george-arm-left::before {
+        top: -4px;
+        left: 5px;
+        transform: rotate(29deg); }
+      .george-arm-left::after {
+        top: 5px;
+        left: 5px;
+        transform: rotate(-29deg); }
+    .george-arm-right {
+      right: -51px;
+      top: 40px;
+      transform: rotate(22deg);
+      border-top-left-radius: 50% 2px;
+      border-top-right-radius: 50% 2px; }
+      .george-arm-right::before, .george-arm-right::after {
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 2px;
+        background: #f8cfd8;
+        border-top-left-radius: 50% 2px;
+        border-top-right-radius: 50% 2px; }
+      .george-arm-right::before {
+        top: -4px;
+        right: 5px;
+        transform: rotate(-29deg); }
+      .george-arm-right::after {
+        top: 5px;
+        right: 5px;
+        transform: rotate(29deg); }
+  .george-leg {
+    position: absolute;
+    bottom: -14px;
+    width: 5px;
+    height: 20px;
+    background: #f8cfd8; }
+    .george-leg::after {
+      content: '';
+      width: 40px;
+      height: 14px;
+      background: #231814;
+      border-radius: 50%;
+      position: absolute;
+      bottom: -5px; }
+    .george-leg-left {
+      left: 60px; }
+      .george-leg-left::after {
+        right: -2px; }
+    .george-leg-right {
+      right: 60px; }
+      .george-leg-right::after {
+        left: -15px; }
+  .george-tail {
+    position: absolute;
+    right: -26px;
+    top: 80px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #f8cfd8;
+    border-right-color: transparent;
+    border-radius: 50% 40%;
+    transform: rotate(60deg); }
+    .george-tail::after {
+      content: '';
+      width: 20px;
+      height: 20px;
+      border: 2px solid #f8cfd8;
+      border-bottom-color: transparent;
+      border-radius: 40% 50%;
+      position: absolute;
+      left: -10px;
+      top: -2px;
+      transform: rotate(-13deg); }
+
+/*# sourceMappingURL=peppa.css.map */
