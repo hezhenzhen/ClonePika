@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9bd9443-a969-4f39-92eb-3217d6f1b4b9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/sass/base.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/5f4f97e6533a2d6e539b5cbd57c517cfd7f00246/pkq.scssc" afterPath="$PROJECT_DIR$/.sass-cache/5f4f97e6533a2d6e539b5cbd57c517cfd7f00246/pkq.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/peppa.css.map" afterPath="$PROJECT_DIR$/style/css/peppa.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/sass/peppa.scss" afterPath="$PROJECT_DIR$/style/sass/peppa.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/base.css.map" afterPath="$PROJECT_DIR$/style/css/base.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/pkq.css" afterPath="$PROJECT_DIR$/style/css/pkq.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/pkq.css.map" afterPath="$PROJECT_DIR$/style/css/pkq.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/sass/base.scss" afterPath="$PROJECT_DIR$/style/sass/base.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/sass/pkq.scss" afterPath="$PROJECT_DIR$/style/sass/pkq.scss" />
     </list>
     <ignored path="sass.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,8 +35,8 @@
       <file leaf-file-name="pkq.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pkq.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+            <state relative-caret-position="194">
+              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -42,27 +45,27 @@
       <file leaf-file-name="pkq.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/sass/pkq.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="157" column="7" selection-start-line="157" selection-start-column="7" selection-end-line="157" selection-end-column="7" />
+            <state relative-caret-position="323">
+              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
               <folding>
-                <element signature="e#719#1490#0" expanded="false" />
-                <element signature="e#1500#2164#0" expanded="false" />
-                <element signature="e#2175#2352#0" expanded="false" />
-                <element signature="e#2362#3109#0" expanded="false" />
-                <element signature="e#3120#4616#0" expanded="false" />
-                <element signature="e#4626#5060#0" expanded="false" />
-                <element signature="e#5070#5519#0" expanded="false" />
-                <element signature="e#5530#6397#0" expanded="false" />
+                <element signature="e#766#1537#0" expanded="false" />
+                <element signature="e#1547#2211#0" expanded="false" />
+                <element signature="e#2222#2399#0" expanded="false" />
+                <element signature="e#2409#3156#0" expanded="false" />
+                <element signature="e#3167#4663#0" expanded="false" />
+                <element signature="e#4673#5107#0" expanded="false" />
+                <element signature="e#5117#5566#0" expanded="false" />
+                <element signature="e#5577#6444#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="peppa.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="peppa.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/peppa.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="23" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="23" />
+            <state relative-caret-position="194">
+              <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -110,18 +113,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            <state relative-caret-position="304">
+              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/sass/base.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+            <state relative-caret-position="228">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -147,13 +150,13 @@
         <option value="$PROJECT_DIR$/style/sass/pkq.sass" />
         <option value="$PROJECT_DIR$/style/css/pkq.css" />
         <option value="$PROJECT_DIR$/pkq.html" />
-        <option value="$PROJECT_DIR$/style/sass/pkq.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/style/peppa.html" />
         <option value="$PROJECT_DIR$/peppa.html" />
         <option value="$PROJECT_DIR$/style/sass/peppa.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style/sass/base.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/style/sass/pkq.scss" />
       </list>
     </option>
   </component>
@@ -328,12 +331,12 @@
       <updated>1530243804912</updated>
       <workItem from="1530243806548" duration="17251000" />
       <workItem from="1530597286888" duration="40320000" />
-      <workItem from="1531213801325" duration="2896000" />
+      <workItem from="1531213801325" duration="3741000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60467000" />
+    <option name="totallyTimeSpent" value="61312000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
@@ -386,14 +389,14 @@
         <state relative-caret-position="722">
           <caret line="157" column="7" selection-start-line="157" selection-start-column="7" selection-end-line="157" selection-end-column="7" />
           <folding>
-            <element signature="e#719#1490#0" expanded="false" />
-            <element signature="e#1500#2164#0" expanded="false" />
-            <element signature="e#2175#2352#0" expanded="false" />
-            <element signature="e#2362#3109#0" expanded="false" />
-            <element signature="e#3120#4616#0" expanded="false" />
-            <element signature="e#4626#5060#0" expanded="false" />
-            <element signature="e#5070#5519#0" expanded="false" />
-            <element signature="e#5530#6397#0" expanded="false" />
+            <element signature="e#766#1537#0" expanded="false" />
+            <element signature="e#1547#2211#0" expanded="false" />
+            <element signature="e#2222#2399#0" expanded="false" />
+            <element signature="e#2409#3156#0" expanded="false" />
+            <element signature="e#3167#4663#0" expanded="false" />
+            <element signature="e#4673#5107#0" expanded="false" />
+            <element signature="e#5117#5566#0" expanded="false" />
+            <element signature="e#5577#6444#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -462,14 +465,14 @@
         <state relative-caret-position="551">
           <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
           <folding>
-            <element signature="e#719#1490#0" expanded="false" />
-            <element signature="e#1500#2164#0" expanded="false" />
-            <element signature="e#2175#2352#0" expanded="false" />
-            <element signature="e#2362#3109#0" expanded="false" />
-            <element signature="e#3120#4616#0" expanded="false" />
-            <element signature="e#4626#5060#0" expanded="false" />
-            <element signature="e#5070#5519#0" expanded="false" />
-            <element signature="e#5530#6397#0" expanded="false" />
+            <element signature="e#766#1537#0" expanded="false" />
+            <element signature="e#1547#2211#0" expanded="false" />
+            <element signature="e#2222#2399#0" expanded="false" />
+            <element signature="e#2409#3156#0" expanded="false" />
+            <element signature="e#3167#4663#0" expanded="false" />
+            <element signature="e#4673#5107#0" expanded="false" />
+            <element signature="e#5117#5566#0" expanded="false" />
+            <element signature="e#5577#6444#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -518,36 +521,44 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/peppa.html" />
-    <entry file="file://$PROJECT_DIR$/style/sass/pkq.scss">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="157" column="7" selection-start-line="157" selection-start-column="7" selection-end-line="157" selection-end-column="7" />
-          <folding>
-            <element signature="e#719#1490#0" expanded="false" />
-            <element signature="e#1500#2164#0" expanded="false" />
-            <element signature="e#2175#2352#0" expanded="false" />
-            <element signature="e#2362#3109#0" expanded="false" />
-            <element signature="e#3120#4616#0" expanded="false" />
-            <element signature="e#4626#5060#0" expanded="false" />
-            <element signature="e#5070#5519#0" expanded="false" />
-            <element signature="e#5530#6397#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/peppa.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="23" />
+        <state relative-caret-position="304">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pkq.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        <state relative-caret-position="194">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/sass/base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/sass/pkq.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding>
+            <element signature="e#766#1537#0" expanded="false" />
+            <element signature="e#1547#2211#0" expanded="false" />
+            <element signature="e#2222#2399#0" expanded="false" />
+            <element signature="e#2409#3156#0" expanded="false" />
+            <element signature="e#3167#4663#0" expanded="false" />
+            <element signature="e#4673#5107#0" expanded="false" />
+            <element signature="e#5117#5566#0" expanded="false" />
+            <element signature="e#5577#6444#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -578,18 +589,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/peppa.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/sass/base.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        <state relative-caret-position="194">
+          <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
           <folding />
         </state>
       </provider>

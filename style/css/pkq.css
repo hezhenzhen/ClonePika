@@ -2,8 +2,11 @@
 body, div, p, span {
   box-sizing: border-box; }
 
+html, body {
+  height: 100%;
+  overflow: hidden; }
+
 body {
-  min-height: 100vh;
   background: #fcf7c5;
   font-family: "Roboto Condensed", sans-serif;
   display: flex;

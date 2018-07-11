@@ -15,8 +15,9 @@ $primary-font: "Roboto Condensed", sans-serif;
 
 body, div, p, span {box-sizing: border-box;}
 
+html, body{ height: 100%; overflow: hidden;}
 body{
-  min-height:100vh;
+  //min-height:100vh;
   background: $primary-color-tint;
   font-family: $primary-font;
   display: flex;
